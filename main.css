@@ -1,0 +1,27 @@
+body { 
+    font-family: monospace; 
+} 
+ul { /*Seletor que seleciona o elemento HTML 'ul' */
+    font-family: Helvetica; /*O nome da propriedade é font-family e o valor é Helvetica. Os dois juntos formam um par chave-valor*/
+} 
+li { 
+    list-style: circle;
+} 
+.list { 
+    list-style: square;
+} 
+#msg { 
+    font-family: monospace;
+} 
+/*Os atributos personalizados são chamados de .list e #msg. Para classes iniciasse com . e para um único elemento é #. Os nomes são arbitrarios ou seja podem ser qualquer um*/ 
+ 
+.pink-theme { 
+    color: #FFC0CB; 
+    background: #F5F5F5;
+} 
+ 
+:root { /*representa o elemento <html> */
+    --green: #00FF00; 
+    --white: #FFFFFF; 
+    --black: #000000;
+}
