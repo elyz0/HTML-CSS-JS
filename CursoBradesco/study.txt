@@ -1,0 +1,30 @@
+Crie um site simples usando HTML, CSS e JavaScript
+ 
+Em uma página da Web, a linguagem de marcação de hipertexto (HTML) fornece seu conteúdo, as folhas de estilo em cascata (CSS) definem a aparência da página e o JavaScript é usado para fornecer interatividade com o usuário, ou seja, a sua lógica de negócios. 
+O conteúdo, estilo e lógica de negócios são separados em arquivos HTML, CSS e JavaScript, respectivamente. Entre as muitas razões para separar interesses, uma é a simplicidade e a reutilização. Por exemplo, ao estilizar os elementos usando CSS, você pode aplicar estilos a todos os elementos de uma página, independentemente da complexidade da página, em vez de codificar a aparência separadamente em cada elemento.
+ 
+Módulo 1 - Estrutura do aplicativo web 
+    Ao criar um site, é comum que a estrutura do projeto sofra alterações ao longo do tempo, conforme ele se torna mais complicado. Projetos grandes, geralmente, exigem um maior grau de cuidado e atenção para que as muitas pessoas envolvidas possam manter tudo organizado! 
+   
+    
+
+Módulo 2 - Adicionar o HTML 
+    1. Adicionar o conteúdo HTML básico 
+    2. Abrir a página HTML no navegador 
+    3. Ferramentas de desenvolvedor.
+    html:5  
+    A guia Elementos das ferramentas para desenvolvedores (f12 no chrome) mostra o DOM (Modelo de Objeto do Documento) como renderizado no navegador. Inspecionar a página em um navegador fornece todos os tipos de informações úteis e pode ajudá-lo a solucionar problemas, você também pode exibir detalhes de CSS com o inspetor.
+ 
+  
+   
+Módulo 3 - Aplicar estilos ao HTML com o CSS 
+    CSS é a sigla para Cascading Style Sheets (em português, Folhas de Estilo em Cascata), que permite que você especifique qual deve ser a aparência de sua página. A ideia básica é direcionar ao código HTML, depois definir qual o estilo deve ser. Por exemplo, você pode marcar uma caixa e aplicar à ela cantos arredondados ou uma tela de fundo gradiente. 
+    O CSS é responsável por determinar a aparência dos hiperlinks e como eles respondem ao interagir com eles – embora você defina o endereço de destino em HTML. No CSS3, você também pode criar efeitos de animação sofisticados.
+
+
+
+Módulo 4 Adicionar interatividade com JavaScript  
+    O JavaScript (ou ECMAScript) é uma linguagem de programação que ajuda você a adicionar interatividade à sua página da Web.   
+    O elemento de script pode ser colocado no <head> ou em outro lugar no <body>. No entanto, colocar <script> no final da seção <body> permite que todo o conteúdo da página seja exibido na tela primeiro, carregando o script em seguida.
+
+    o modo estrito, que reduz erros silenciosos, melhora o desempenho, fornece mais avisos e menos recursos não seguros.
