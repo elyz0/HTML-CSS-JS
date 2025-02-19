@@ -15,13 +15,18 @@ li {
 } 
 /*Os atributos personalizados são chamados de .list e #msg. Para classes iniciasse com . e para um único elemento é #. Os nomes são arbitrarios ou seja podem ser qualquer um*/ 
  
-.pink-theme { 
-    color: #FFC0CB; 
-    background: #F5F5F5;
+:root { /*representa o elemento <html> útil para definir variáveis CSS globais que podem ser usadas em qualquer parte do código.*/
+    --AzulEscuro: #2C3E50; 
+    --VerdeEsmeralda: #16A085; 
+    --Dourado: #D4A24C; 
+    --RosaClaro: #FADADD; 
+    --RosaEscuro: #E86A92;
+    --AzulTurquesa: #29B8C9; 
+    --RoxoEscuro: #4E1D6A; 
+    --Preto: #1B1B1B;
 } 
  
-:root { /*representa o elemento <html> */
-    --green: #00FF00; 
-    --white: #FFFFFF; 
-    --black: #000000;
-}
+.Trad-theme { 
+    --bg: var(var(--Dourado)) 
+    --fontColor: var(var(--VerdeEsmeralda))
+} 
