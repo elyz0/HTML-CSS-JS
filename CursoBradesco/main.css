@@ -11,13 +11,40 @@
 }  
  
 * { /*O seletor * é universal e se aplica a todos os elementos da página (exceto quando um seletor de elemento mais específico o substitui).*/
-    color: var(--fontColor);
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 } 
 
-body {  
-    background: var(--bg);
+body {  /*Centralizar a div*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
 }  
+ 
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+    height: 500px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+} 
 
 ul { /*Seletor que seleciona o elemento HTML 'ul' */
     font-family: Helvetica; /*O nome da propriedade é font-family e o valor é Helvetica. Os dois juntos formam um par chave-valor*/
@@ -52,11 +79,9 @@ Os atributos personalizados são chamados de .list e #msg. Para classes iniciass
  
 .button {  
     position: absolute; 
-    top: 20px; 
-    left: 250px; 
-    height: 50px; 
-    width: 50px; 
-    border-radius: 100%; 
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px; 
     border: none;  
     color: var(--btnFontColor); 
     background-color: var(--btnBg);
