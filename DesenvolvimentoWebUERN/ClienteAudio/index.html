@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Acessórios para Pets</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>🐾 Loja Pet Neon 🐾</h1>
+        <nav>
+            <ul>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#videos">Tutoriais</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contador de visitas -->
+    <div id="contador">👀 Visitas: <span id="visitas">0</span></div>
+
+    <!-- Galeria de Produtos -->
+    <section id="galeria">
+        <h2>🛍️ Nossos Produtos</h2>
+        <div class="categoria">
+            <h3>Coleiras</h3>
+            <img src="coleira1.jpg" alt="Coleira bonita">
+        </div>
+        <div class="categoria">
+            <h3>Brinquedos</h3>
+            <img src="brinquedo1.jpg" alt="Brinquedo para pet">
+        </div>
+        <div class="categoria">
+            <h3>Camas</h3>
+            <img src="cama1.jpg" alt="Cama confortável">
+        </div>
+    </section>
+
+    <!-- Tutoriais em Vídeo -->
+    <section id="videos">
+        <h2>🎥 Como Usar Nossos Produtos</h2>
+        <video controls>
+            <source src="tutorial.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+        </video>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos">
+        <h2>🗣️ O que nossos clientes dizem?</h2>
+        <div class="depoimento">
+            <p>"Produtos de ótima qualidade! Meu pet adorou!" - Maria S.</p>
+        </div>
+        <div class="depoimento">
+            <p>"Atendimento excelente e entrega rápida!" - João P.</p>
+        </div>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section id="contato">
+        <h2>📞 Fale Conosco</h2>
+        <form id="formulario">
+            <label>Nome:</label>
+            <input type="text" required>
+
+            <label>CEP (para cálculo de frete):</label>
+            <input type="text" id="cep" required>
+            <button type="button" onclick="calcularFrete()">Calcular Frete</button>
+            <p id="frete"></p>
+
+            <label>Mensagem:</label>
+            <textarea required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section id="sobre">
+        <h2>🐶 Sobre Mim</h2>
+        <p>Comecei na feira, vendendo acessórios para pets com muito amor...</p>
+        <img src="pets.jpg" alt="Meus pets">
+        <img src="carro_antigo.jpg" alt="Carro antigo restaurado">
+    </section>
+
+    <!-- Botões fixos -->
+    <a href="https://wa.me/seunumerodetelefone" class="whatsapp">WhatsApp</a>
+    <a href="https://instagram.com/seuinstagram" class="instagram">Instagram</a>
+
+</body>
+</html>
