@@ -119,4 +119,18 @@ img {
     height: auto;
     display: block;
     margin: 0 auto;
+} 
+ 
+.mapa img {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+} 
+ 
+.fachada img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
 }
